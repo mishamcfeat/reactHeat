@@ -1,8 +1,10 @@
+
+import LoginComponent from '../components/LoginComponent';
 const HomePage: React.FC = () => {
 
     return (
         <div>
-            HomePage
+            <LoginComponent />
         </div>
 
     );

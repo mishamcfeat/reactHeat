@@ -23,5 +23,5 @@ setupListeners(store.dispatch);
 
 export type RootState = ReturnType<typeof store.getState>; //type of the store to import for type safety
 export type AppDispatch = typeof store.dispatch; //type of the dispatch function
-export { useGetUserQuery, useAddUserMutation, useUpdateUserMutation, useRemoveUserMutation, useLoginUserMutation } from './apis/userApi';
+export { useGetUserQuery, useLoginUserMutation, useSignupUserMutation, useUpdateUserMutation, useRemoveUserMutation } from './apis/userApi';
 
